@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>javasamples</groupId> 
+    <groupId>com.krissh</groupId>
     <artifactId>javasamples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>javasamples-common</groupId>
   <artifactId>javasamples-common</artifactId>
   <dependencies>
   	<dependency>
@@ -14,12 +13,12 @@
   		<version>3.1rc2</version>
   	</dependency>
   	<dependency>
-  		<groupId>convertz-api</groupId>
+  		<groupId>com.krissh</groupId>
   		<artifactId>convertz-api</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>convertz-impl-core</groupId>
+  		<groupId>com.krissh</groupId>
   		<artifactId>convertz-impl-core</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
